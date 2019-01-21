@@ -7,10 +7,10 @@ public class Jogador : MonoBehaviour {
 	
 	void Update () {
        float eixoX = Input.GetAxis("Horizontal");
-       float eixoZ = Input.GetAxis("Vertical");
+        float eixoZ = Input.GetAxis("Vertical");
 
-        Vector3 direcao = new Vector3(eixoX, eixoZ, 0);
-
-        transform.Translate(direcao * 10 * Time.deltaTime);
+        Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
+        transform.Translate(direcao);
+   
 	}
 }
