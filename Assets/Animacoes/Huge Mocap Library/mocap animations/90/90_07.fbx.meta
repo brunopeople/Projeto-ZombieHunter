@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: d85a12ddb2c07fc459e90a3e1fec6422
+guid: e8cd1aa1ca2f06642b83127ff341e7d3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: 90_01
+    100000: 90_07
     100002: //RootNode
     100004: abdomen
     100006: chest
@@ -48,7 +48,7 @@ ModelImporter:
     100084: rThigh
     100086: rThumb1
     100088: rThumb2
-    400000: 90_01
+    400000: 90_07
     400002: //RootNode
     400004: abdomen
     400006: chest
@@ -93,7 +93,7 @@ ModelImporter:
     400084: rThigh
     400086: rThumb1
     400088: rThumb2
-    7400000: 90_01
+    7400000: parado
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -122,7 +122,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: parado
+      takeName: 90_07
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -146,8 +174,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -487,12 +515,12 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: 90_01(Clone)
+    - name: 90_07(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: 90_01
+    - name: 90_07
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}

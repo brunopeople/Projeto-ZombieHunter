@@ -232,7 +232,17 @@ ModelImporter:
     13700000: man01
     13700002: man02
     13700004: man03
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: 1d298ea322db8b148aee53717551e9a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 411734dcc1b6233418d55e2b6ead4105, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
