@@ -1,4 +1,0 @@
-sceneSetups:
-- path: C:/Users/brunopessoa/Documents/Projeto-ZombieHunter/Assets/cena.unity
-  isLoaded: 1
-  isActive: 1

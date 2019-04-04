@@ -56,11 +56,9 @@
      <Compile Include="Assets\MoveMotionPack\SampleScene\Scripts\PlayManager.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\Jogador.cs" />
-     <None Include="Assets\Animacoes\Huge Mocap Library\READTHIS.txt" />
      <None Include="Assets\Animacoes\Animacoes.txt" />
      <None Include="Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\MoveMotionPack\SampleScene\Shaders\DiffuseReflectiveShader.shader" />
-     <None Include="Assets\Animacoes\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
      <None Include="Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Animacoes\Animacoes_Zumbi.txt" />
      <None Include="Assets\Modelos3D\Personagens\Animacoes\Animacoes_Zumbi.txt" />

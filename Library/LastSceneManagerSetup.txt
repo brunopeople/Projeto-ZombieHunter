@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TCC.unity
+- path: Assets/Cena_TCC.unity
   isLoaded: 1
   isActive: 1

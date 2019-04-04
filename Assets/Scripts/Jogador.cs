@@ -10,7 +10,7 @@ public class Jogador : MonoBehaviour {
         float eixoZ = Input.GetAxis("Vertical");
 
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
-        transform.Translate(direcao);
+        transform.Translate(direcao*velocidadejogador*Time.deltaTime);
    
 	}
 }
