@@ -53,17 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MoveMotionPack\SampleScene\Scripts\PlayManager.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Camera.cs" />
      <Compile Include="Assets\Scripts\Jogador.cs" />
-     <None Include="Assets\Animacoes\Animacoes.txt" />
-     <None Include="Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpecTransp.shader" />
-     <None Include="Assets\MoveMotionPack\SampleScene\Shaders\DiffuseReflectiveShader.shader" />
-     <None Include="Assets\MoveMotionPack\SampleScene\Shaders\ReflectiveDiffuseSpec.shader" />
-     <None Include="Assets\Animacoes\Animacoes_Zumbi.txt" />
      <None Include="Assets\Modelos3D\Personagens\Animacoes\Animacoes_Zumbi.txt" />
      <None Include="Assets\Simple city plain\Read_me.txt" />
      <None Include="Assets\Modelos3D\Personagens\Animacoes\Animacoes.txt" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/brunopessoa/Documents/Projeto-ZombieHunter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
