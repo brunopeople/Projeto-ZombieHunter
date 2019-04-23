@@ -230,6 +230,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4388147801538684}
   - component: {fileID: 95221350594522706}
+  - component: {fileID: 114107847041150200}
+  - component: {fileID: 136727842362323862}
   m_Layer: 0
   m_Name: Soldier_Team3_Unlit
   m_TagString: Untagged
@@ -1746,7 +1748,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1167246793493698}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -2.818, y: 0, z: 0}
+  m_LocalPosition: {x: -321.39, y: 70.28, z: -47.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4483374442462602}
@@ -2500,7 +2502,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1167246793493698}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 54703f7a1bdab43419cb12e2e21a1a2c, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 9529e9bfe7648ef40a7ca3ac43a58f4a, type: 3}
   m_Controller: {fileID: 9100000, guid: 3add3c09cac86cd4ba470998309f4fa2, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -2510,6 +2512,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114107847041150200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167246793493698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92fff8c5c864e14cb85918579c003d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadejogador: 10
+--- !u!136 &136727842362323862
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167246793493698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.3012161
+  m_Direction: 1
+  m_Center: {x: -0, y: 0.65060806, z: -0}
 --- !u!137 &137305396851769092
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

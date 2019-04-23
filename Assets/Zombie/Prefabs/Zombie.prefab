@@ -206,6 +206,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4846736819855508}
   - component: {fileID: 95053064929079256}
+  - component: {fileID: 136396588975894228}
+  - component: {fileID: 136777365145808022}
+  - component: {fileID: 136447125487977540}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -1126,7 +1129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1300611964618398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -320.249, y: 70.2, z: -50.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4465147877298448}
@@ -1236,6 +1239,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &136396588975894228
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300611964618398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.281479
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.64073944, z: 0}
+--- !u!136 &136447125487977540
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300611964618398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.281479
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.64073944, z: 0}
+--- !u!136 &136777365145808022
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300611964618398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.281479
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.64073944, z: 0}
 --- !u!137 &137039581699937316
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
